@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-900;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    to left,
+    #ff000a,
+    #cb00cb,
+    #5300ff,
+    #cb00cb,
+    #ff000a,
+    #cb00cb,
+    #5300ff
+  );
+  background-size: 300% 300%;
+  background-clip: text;
+}
